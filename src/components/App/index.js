@@ -40,7 +40,7 @@ class App extends Component{
           if(a==="" || b==="" || c===""){
               continue;
           }
-          if(a==b && b==c){
+          if(a===b && b===c){
               roundWon=true;
               break;
           }
